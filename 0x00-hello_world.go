@@ -1,7 +1,18 @@
 package main
 
-import "fmt"
+// fmt printintg library
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	// var declaration
+	message := "Hello,"
+	// arg0 := os.Args[0] will be the program path
+	arg1 := os.Args[1] + "."
+	const message2 = "Have a good one."
+
+	fmt.Println(message, arg1, message2)
+	fmt.Println("PD: Hello World!")
 }
