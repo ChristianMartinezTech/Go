@@ -1,6 +1,6 @@
 package main
 
-// fmt printintg library
+// import args and fmt
 import (
 	"fmt"
 	"os"
@@ -12,6 +12,7 @@ func main() {
 	arg1 := os.Args[1] + "."
 	const message2 = "Have a good one."
 	number := 10
+	const old_programming_lang = "C"
 
 	// To initialize empty var
 	// var a int
@@ -20,6 +21,6 @@ func main() {
 	// var d bool
 
 	fmt.Println(message, arg1, message2)
-	fmt.Println("PD: Hello World!")
-	fmt.Println(number - 5)
+	fmt.Println("Let's print a string, sum a var and a value:", number-5)
+	fmt.Printf("Now let's use Printf like in %s\n", old_programming_lang)
 }
