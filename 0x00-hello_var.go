@@ -1,3 +1,6 @@
+// Program to use args and multiple ways of printing
+// Usage: go run 0x00-hello_var.go [Name]
+
 package main
 
 // import args and fmt
