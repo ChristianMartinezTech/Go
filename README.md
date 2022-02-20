@@ -13,11 +13,11 @@
 
 ## Go Commands
 * run         compile and run Go program
+* build       compile packages and dependencies
 * get         add dependencies to current module and install them
 * install     compile and install packages and dependencies
 * version     print Go version
 * bug         start a bug report
-* build       compile packages and dependencies
 * clean       remove object files and cached files
 * doc         show documentation for package or symbol
 * env         print Go environment information
