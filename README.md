@@ -34,4 +34,4 @@
 * [Go](https://go.dev/doc/)
 * [freecodecamp](https://www.freecodecamp.org/news/what-is-go-programming-language/)
 * [An_Introduction_to_programming_in_Go](https://www.golang-book.com/books/intro)
-[Platzi-Curso_Básico_de_Programación_en_Go](https://platzi.com/cursos/programacion-golang/)
+* [Platzi-Curso_Básico_de_Programación_en_Go](https://platzi.com/cursos/programacion-golang/)
