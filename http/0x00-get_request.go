@@ -1,5 +1,4 @@
 // Program that makes a post request to the airtable api
-// https://docs.aws.amazon.com/es_es/lambda/latest/dg/lambda-golang.html
 // https://docs.aws.amazon.com/es_es/lambda/latest/dg/golang-handler.html
 
 // To add favorites in the browser -> cheks if the user is loged in -> 
