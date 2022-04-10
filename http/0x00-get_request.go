@@ -1,27 +1,27 @@
-// Program that makes a post request to the airtable api
-// https://docs.aws.amazon.com/es_es/lambda/latest/dg/golang-handler.html
-
-// To add favorites in the browser -> cheks if the user is loged in -> 
-// triggers lambda function (listen to the AIR call from the front end) -> 
-// makes post request to the airtable API
+// Simple hhtp request program -> go run 0x00-get_request.go {url}
+// it will receive 1 parameter as the url to make the request to
 
 package main
 
 import (
-	//"fmt"
-	"http"
-	//"context"
-	"github.com/aws/aws-lambda-go/lambda"
+	"fmt"
+	"log"
+	"net/http"
+	"os"
 )
 
-func postRequest {
-	// Post request to the airtable api
-	resp, err := http.PostForm("https://api.airtable.com/v0/appnGSgUk1lPoc5oX/test",
-	url.Values{"key": {"Value"}, "id": {"123"}})
+// Get request funct
+func api(url string) {
+	resp, err := http.Get(url)
 
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Println(resp)
 }
 
-func main {
-	// Start postRequest func
-	lambda.Start(postRequest)
+func main() {
+	url := os.Args[1]
+	api(url)
 }
