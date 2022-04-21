@@ -11,7 +11,7 @@ import (
 	"net/http"
 )
 
-var Token = "Authorization: Token zckM7icpJJjnCDgDJjrCFx57diqFYdbZ"
+var Token = "Token zckM7icpJJjnCDgDJjrCFx57diqFYdbZ"
 var TableId = 59764
 var Url = "https://api.baserow.io/api/database/fields/table/59764/"
 
@@ -23,7 +23,7 @@ func main() {
 
 	// 2. Construir los requests
 	req, err := client.Get("https://api.baserow.io/api/database/fields/table/59764/")
-	req.Header.Set(Token, "")
+	req.Header.Add("Authorization", Token)
 	if err != nil {
 		log.Fatal(err)
 	}
