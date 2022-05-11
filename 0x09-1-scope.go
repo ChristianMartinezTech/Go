@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var Int = 1
+var Int := 1
 
 func main() {
 	int2 := 2
