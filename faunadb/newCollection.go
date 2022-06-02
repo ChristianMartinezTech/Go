@@ -9,13 +9,14 @@ import (
 	f "github.com/fauna/faunadb-go/v4/faunadb"
 )
 
-// Acquire the secret and optional endpoint from environment variables
-var (
-	secret   = "fnAEn7ciCsACUfzmdzyHPeDAmr9FJ4_ocnrKfKg_"
-	endpoint = "https://db.fauna.com"
-)
-
 func main() {
+
+	// Acquire the secret and optional endpoint from environment variables
+	var (
+		secret   = "fnAEn7ciCsACUfzmdzyHPeDAmr9FJ4_ocnrKfKg_"
+		endpoint = "https://db.fauna.com"
+	)
+
 	// Instantiate a client
 	client := f.NewFaunaClient(secret, f.Endpoint(endpoint))
 
