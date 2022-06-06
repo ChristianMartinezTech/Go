@@ -6,12 +6,14 @@ import "fmt"
 
 func price() {
 	// Taking the customer's order
-	fmt-Println("Hey there! Here's today's menu:
+	openingMsg := "Hey there! Here's today's menu:
 	apple
 	pinneaple
 	coconut
 	strawberries
-	grapes")
+	grapes"
+
+	fmt.Println()
 	fmt-Println("What would oyu like to order?")
 	var order string
 	fmt.Scanf(&order)
