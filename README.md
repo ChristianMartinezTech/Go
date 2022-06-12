@@ -30,6 +30,10 @@
 * tool        run specified go tool
 * vet         report likely mistakes in packages
 
+## Package usage
+* go mod init (file)
+* go mod tidy
+
 ## Sources
 * [Go](https://go.dev/doc/)
 * [freecodecamp](https://www.freecodecamp.org/news/what-is-go-programming-language/)
