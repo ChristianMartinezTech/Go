@@ -30,7 +30,7 @@
 * tool        run specified go tool
 * vet         report likely mistakes in packages
 
-## Package usage
+## Package installation
 * go mod init (file)
 * go mod tidy
 
