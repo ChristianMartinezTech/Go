@@ -34,6 +34,8 @@
 * go mod init (file)
 * go mod tidy
 
+### MAKE SURE TO USE THE LATEST GO VERSION
+
 ## Sources
 * [Go](https://go.dev/doc/)
 * [freecodecamp](https://www.freecodecamp.org/news/what-is-go-programming-language/)
